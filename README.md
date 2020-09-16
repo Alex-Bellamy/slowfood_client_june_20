@@ -1,68 +1,65 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Craft Academy - SlowFood Client
+[Deployed at Netlify] <br />
+[![Netlify Status]
 
-## Available Scripts
+## Authors
 
-In the project directory, you can run:
+## The challenge
+Build an online food ordering system (with accompanying [API](https://github.com/Alex-Bellamy/slowfood_api_june_20)). An e-commerce web-based app that allows customers to order their food for home delivery, or for pick up from the restaurant. Our imaginary client is a restaurant owner that needs a website where he can list his menu and allow visitors to place orders.
 
-### `yarn start`
+## Scope 
+In the first version of the application we focussed on the following functionality:
+```
+- A menu needs to consist of many dishes
+- Each dish has/belongs to a Category. It is either a 'starter', 'main course' or 'dessert'
+- Visitors to the site can add various products to their order
+- To create an order and check out, a customer needs to become a registered user
+- Order need to calculate a total price
+```
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Skills practised
+- Agile methods for software development
+- Working and self-organising in teams
+- Pair Programming 
+- Collaboration using Git and GitHub
+- Test Driven Development and Behavior Driven Design or Acceptance - Unit Test cycle
+- Using Pivotal Tracker's project management tool, user stories and lo-fi's
+- Iterative and incremental design
+- The importance of planning work
+- Learn about Ruby on Rails as an API (Understand the concept of ORM's vs SQL (ActiveRecord), the MVC structure, controllers, routes, models, relation between models and the concept of params)
+- Delve deeper into React
+- Understand how to consume an API and the different requests 
+- How a React client fits into the MVC structure
+- User Authentication
+- Reading the documentation for libraries we use in our projects (gems & packages).
+- Debugging and problem-solving skills
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Tech and packages
+- React client
+- Rails API
+- Pivotal Tracker as Project Management tool for tracking features, chores and bugs.
+- PostgreSQL as a database with ActiveRecord as ORM
+- Cypress for acceptance testing in React
+- RSpec for Unit & Request tests
+- Devise for user authentication and account management
+[   ]
 
-### `yarn test`
+## Setup
+You can fork this repo to your own GitHub account or clone it directly to your local drive. 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install all packages by running the command:
 
-### `yarn build`
+``` $ yarn ```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Run the app in development mode:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+``` $ yarn start ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Start Cypress and run the tests:
 
-### `yarn eject`
+``` $ yarn cy:open ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Updates/Improvements
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## License
+This app is open source software [licensed as MIT](https://mit-license.org/).
