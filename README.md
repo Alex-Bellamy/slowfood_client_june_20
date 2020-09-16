@@ -31,13 +31,13 @@ In the first version of the application we focussed on the following functionali
 - Understand how to consume an API and the different requests 
 - How a React client fits into the MVC structure
 - User Authentication
-- Reading the documentation for libraries we use in our projects (gems & packages).
+- Reading the documentation for libraries we use in our projects (gems & packages)
 - Debugging and problem-solving skills
 
 ## Tech and packages
 - React client
 - Rails API
-- Pivotal Tracker as Project Management tool for tracking features, chores and bugs.
+- Pivotal Tracker as Project Management tool for tracking features, chores and bugs
 - PostgreSQL as a database with ActiveRecord as ORM
 - Cypress for acceptance testing in React
 - RSpec for Unit & Request tests
