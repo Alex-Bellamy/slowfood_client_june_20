@@ -3,6 +3,7 @@
 [![Netlify Status]
 
 ## Authors
+[Alex Bellamy](https://github.com/Alex-Bellamy), [Felix Oppong Willborg](https://github.com/felixoppongwillborg), [Odeane Croney](https://github.com/Odeane), [Viktor Sommar Baillot](https://github.com/viktorsommar), [Sima Boreiri](https://github.com/Cma-B) <br />
 
 ## The challenge
 Build an online food ordering system (with accompanying [API](https://github.com/Alex-Bellamy/slowfood_api_june_20)). An e-commerce web-based app that allows customers to order their food for home delivery, or for pick up from the restaurant. Our imaginary client is a restaurant owner that needs a website where he can list his menu and allow visitors to place orders.
@@ -58,8 +59,6 @@ Run the app in development mode:
 Start Cypress and run the tests:
 
 ``` $ yarn cy:open ```
-
-## Updates/Improvements
 
 ## License
 This app is open source software [licensed as MIT](https://mit-license.org/).
